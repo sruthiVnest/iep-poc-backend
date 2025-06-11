@@ -60,7 +60,7 @@ app.get('/api/getCurrentProjects',(req,res)=>{
         "favourites": [
             {
                 "groupId": "a850c381-4c6b-5a59-dda1-1e37b24eca3d",
-                "groupName": "kghfxgfxh'j",
+                "groupName": "1104088-NCIC III Ammonia",
                 "favourites": [
                     {
                         "projectId": "aa0b2de0-07cc-a1fc-572e-3b6201ac5fcd",
@@ -192,7 +192,7 @@ app.get('/api/getCurrentProjects',(req,res)=>{
             },
             {
                 "groupId": "0c41042f-3a46-795e-6392-bf18cd335b8d",
-                "groupName": "Mic Test",
+                "groupName": "1709043-Leviathan Tex",
                 "favourites": [
                     {
                         "projectId": "9b97c9b3-6006-71b3-2f8a-cdd237105db5",
