@@ -53,19 +53,19 @@
       ],
       "complete": [
         "21",
-        0,
+        "0",
         "2",
-        0,
-        0,
-        0
+        "0",
+        "0",
+        "0"
       ],
       "backlog": [
         "78",
         "37",
         "4",
         "2",
-        0,
-        0
+        "0",
+        "0"
       ]
     }
   },
@@ -122,35 +122,35 @@
       ],
       "due": [
         0,
-        "22",
-        "1",
+        22,
+        1,
         0,
-        "1",
+        1,
         0,
-        "53",
-        0,
-        0,
+        53,
         0,
         0,
         0,
         0,
         0,
         0,
-        "1",
-        "1",
-        "1"
+        0,
+        0,
+        1,
+        1,
+        1
       ],
       "complete": [
         0,
-        "6",
+        6,
         0,
-        "10",
-        "1",
+        10,
+        1,
         0,
-        "1",
-        "2",
-        "2",
-        "1",
+        1,
+        2,
+        2,
+        1,
         0,
         0,
         0,
@@ -161,21 +161,21 @@
         0
       ],
       "backlog": [
-        "7",
-        "43",
-        "4",
-        "4",
-        "3",
-        "3",
-        "27",
-        "21",
-        "2",
-        "2",
-        "1",
-        "1",
-        "1",
-        "1",
-        "1",
+        7,
+        43,
+        4,
+        4,
+        3,
+        3,
+        27,
+        21,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
         0,
         0,
         0
@@ -200,14 +200,156 @@
         "AI Approver"
       ],
       "due": [
-        "79",
-        "1"
+        79,
+        1
       ],
       "backlog": [
-        "109",
-        "12"
+        109,
+        12
       ]
     }
   }
-}
+},
+{"approver_secondlevel": {
+    "activities": {
+      "tooltips": [
+        "IET - TECHENG",
+        "IET - GEP",
+        "IET - Industrial Valves Pumps & Gears",
+        "IET - IP"
+      ],
+      "teams": [
+        "IET - Technology & Engineering",
+        "IET - Gas Equipment & Projects",
+        "IET - Industrial Valves Pumps & Gears",
+        "IET - Industrial Products"
+      ],
+      "count": [
+        "127",
+        "47",
+        "14",
+        "4"
+      ]
+    }
+  },
+  "statistics": {
+    "sendTime": 1750957023626,
+    "receiveTime": 1750957023889,
+    "finishTime": 1750957023973,
+    "responseTime": "84 ms",
+    "cycleTime": "347 ms",
+    "ingressTime": "263 ms"
+  }
+},
+{"approver_thirdlevel": {
+    "activities": {
+      "tooltips": [
+        "#NA"
+      ],
+      "teams": [
+        "#NA"
+      ],
+      "count": [
+        "47"
+      ]
+    }
+  }
+},
+{
+      "actionowner_secondlevel": {
+    "activities": {
+      "tooltips": [
+        "IET - NON ENG"
+      ],
+      "teams": [
+        "IET - NON ENG"
+      ],
+      "due": [
+        "35"
+      ],
+      "complete": [
+        "2"
+      ],
+      "backlog": [
+        "9"
+      ]
+    }
+  }},
+ { 
+      "actionowner_thirdlevel": {
+    "activities": {
+      "tooltips": [
+        "#NA",
+        "IET - Global Supply Chain",
+        "IET - Gas Equipment & Projects",
+        "IET - Industrial Products",
+        "IET - Gas Services",
+        "IET - Industrial Valves Pumps & Gears",
+        "IET - Bently Nevada",
+        "IET - Climate Technology Solutions",
+        "IET - Digital Technology",
+        "IET - Industrial Solutions",
+        "IET - Inspection",
+        "null"
+      ],
+      "teams": [
+        "#NA",
+        "IET - Global Supply Chain",
+        "IET - Gas Equipment & Projects",
+        "IET - Industrial Products",
+        "IET - Gas Services",
+        "IET - Industrial Valves Pumps & Gears",
+        "IET - Bently Nevada",
+        "IET - Climate Technology Solutions",
+        "IET - Digital Technology",
+        "IET - Industrial Solutions",
+        "IET - Inspection",
+        "null"
+      ],
+      "due": [
+        "15",
+        "4",
+        "2",
+        "0",
+        "3",
+        "3",
+        "1",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "complete": [
+        "2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        0
+      ],
+      "backlog": [
+        "1",
+        "1",
+        "2",
+        "4",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        0
+      ]
+    }
+  }
+
+  }
 ]
