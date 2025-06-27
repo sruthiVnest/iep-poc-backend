@@ -1,0 +1,213 @@
+ [ {"AIApprover_Team_Chart": {
+    "activities": {
+      "tooltips": [
+        "IET - NON ENG",
+        "TECH-ENG"
+      ],
+      "teams": [
+        "IET - NON ENG",
+        "TECH-ENG"
+      ],
+      "count": [
+        "192",
+        "32"
+      ]
+    }
+  },
+  "statistics": {
+    "sendTime": 1750917323306,
+    "receiveTime": 1750917323616,
+    "finishTime": 1750917323675,
+    "responseTime": "59 ms",
+    "cycleTime": "369 ms",
+    "ingressTime": "310 ms"
+  }
+},
+
+{
+    "Action_Owner_Team_Chart":  {
+    "activities": {
+      "tooltips": [
+        "IET - NON ENG",
+        "TECH-ENG",
+        "#NA",
+        "GTE-ENG",
+        "GTS-ENG",
+        "IVPG-VAL ENG"
+      ],
+      "teams": [
+        "IET - NON ENG",
+        "TECH-ENG",
+        "#NA",
+        "GTE-ENG",
+        "GTS-ENG",
+        "IVPG-VAL ENG"
+      ],
+      "due": [
+        "22",
+        "10",
+        "40",
+        "5",
+        "2",
+        "1"
+      ],
+      "complete": [
+        "21",
+        0,
+        "2",
+        0,
+        0,
+        0
+      ],
+      "backlog": [
+        "78",
+        "37",
+        "4",
+        "2",
+        0,
+        0
+      ]
+    }
+  },
+  "statistics": {
+    "sendTime": 1750917323347,
+    "receiveTime": 1750917323824,
+    "finishTime": 1750917323879,
+    "responseTime": "55 ms",
+    "cycleTime": "532 ms",
+    "ingressTime": "477 ms"
+  }
+
+},
+{  "DR_AI_Status": [
+    {
+      "Title": "Backlog P90=327.0",
+      "Value": 121
+    },
+    {
+      "Title": "Completed - On Time",
+      "Value": 20
+    },
+    {
+      "Title": "Completed - Late",
+      "Value": 3
+    },
+    {
+      "Title": "Due",
+      "Value": 80
+    }
+  ]
+},{
+      "ActionItemByDR": {
+    "activities": {
+      "reviewTypes": [
+        "Cylinder DDR CL Stage 1",
+        "K0",
+        "CCDR",
+        "RC K0",
+        "BDR / FMEA",
+        "GTS-ASE DR0",
+        "RR",
+        "#NA",
+        "DR1",
+        "CSR3a",
+        "CFDR",
+        "CP BDR / FMEA",
+        "CP BOP DDR",
+        "CSR - test CSR",
+        "PVS-FGS-DDR",
+        "30%",
+        "60%",
+        "90%"
+      ],
+      "due": [
+        0,
+        "22",
+        "1",
+        0,
+        "1",
+        0,
+        "53",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "1",
+        "1",
+        "1"
+      ],
+      "complete": [
+        0,
+        "6",
+        0,
+        "10",
+        "1",
+        0,
+        "1",
+        "2",
+        "2",
+        "1",
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "backlog": [
+        "7",
+        "43",
+        "4",
+        "4",
+        "3",
+        "3",
+        "27",
+        "21",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "statistics": {
+    "sendTime": 1750917323339,
+    "receiveTime": 1750917323826,
+    "finishTime": 1750917323894,
+    "responseTime": "68 ms",
+    "cycleTime": "555 ms",
+    "ingressTime": "487 ms"
+  }
+
+},
+{
+      "CurrentOTRDRPendingWith": {
+    "activities": {
+      "pendingWith": [
+        "Action Owner",
+        "AI Approver"
+      ],
+      "due": [
+        "79",
+        "1"
+      ],
+      "backlog": [
+        "109",
+        "12"
+      ]
+    }
+  }
+}
+]

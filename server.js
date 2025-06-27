@@ -8,7 +8,7 @@ app.use(express.json()); // for parsing application/json
  const data = require('./assets/jsonData/projecttreedata.json');
   const ncrdata = require('./assets/jsonData/ncrdata.json');
    const ispodata = require('./assets/jsonData/ispodata.json');
-   const filterdata = require('./assets/jsonData/savedfilter.json');
+   const otrdr = require('./assets/jsonData/otrdrchart.json');
 const fs = require('fs');
 // Mock endpoints
 app.get('/api/users', (req, res) => {
@@ -40,6 +40,9 @@ app.get('/api/getISPO',(req,res)=>{
 })
 app.get('/api/getISPO',(req,res)=>{
   res.json(ispodata)
+})
+app.get('/api/getotrdr',(req,res)=>{
+  res.json(otrdr)
 })
 //add data to json file while clicking on save filter button
 app.post('/api/saveFilter', (req, res) => {
