@@ -1,4 +1,4 @@
-[
+{"tabularData":[
     {
         "NCR NUMBER": "E1909572",
         "PART NO": "SMU83535",
@@ -51,4 +51,149 @@
         "WEEK OPEN": "FW39-2019",
         "NCR TYPE": "NON ENG"
     }
-]
+],
+"chartData":{
+        "monthlyNCR": [
+            {
+                "year": 2019,
+                "month": "September",
+                "count": 1
+            },
+            {
+                "year": 2019,
+                "month": "July",
+                "count": 2
+            },
+             {
+                "year": 2019,
+                "month": "January",
+                "count": 3
+            },
+            {
+                "year": 2018,
+                "month": "October",
+                "count": 1
+            },
+            {
+                "year": 2018,
+                "month": "July",
+                "count": 1
+            },
+            {
+                "year": 2018,
+                "month": "June",
+                "count": 2
+            },
+            {
+                "year": 2018,
+                "month": "April",
+                "count": 1
+            },
+            {
+                "year": 2018,
+                "month": "March",
+                "count": 1
+            },
+            {
+                "year": 2018,
+                "month": "January",
+                "count": 3
+            },
+            {
+                "year": 2017,
+                "month": "October",
+                "count": 1
+            },
+            {
+                "year": 2017,
+                "month": "September",
+                "count": 1
+            },
+            {
+                "year": 2017,
+                "month": "March",
+                "count": 1
+            },
+            {
+                "year": 2017,
+                "month": "February",
+                "count": 4
+            },
+            {
+                "year": 2017,
+                "month": "January",
+                "count": 1
+            },
+            {
+                "year": 2016,
+                "month": "December",
+                "count": 1
+            },
+            {
+                "year": 2016,
+                "month": "October",
+                "count": 1
+            },
+            {
+                "year": 2016,
+                "month": "September",
+                "count": 4
+            },
+            {
+                "year": 2016,
+                "month": "August",
+                "count": 7
+            },
+            {
+                "year": 2016,
+                "month": "June",
+                "count": 2
+            },
+            {
+                "year": 2016,
+                "month": "April",
+                "count": 2
+            },
+            {
+                "year": 2016,
+                "month": "March",
+                "count": 1
+            },
+            {
+                "year": 2016,
+                "month": "February",
+                "count": 2
+            },
+            {
+                "year": 2016,
+                "month": "January",
+                "count": 2
+            },
+            {
+                "year": 2015,
+                "month": "November",
+                "count": 2
+            },
+            {
+                "year": 2015,
+                "month": "September",
+                "count": 1
+            },
+            {
+                "year": 2015,
+                "month": "August",
+                "count": 1
+            },
+            {
+                "year": 2010,
+                "month": "March",
+                "count": 2
+            },
+            {
+                "year": 2010,
+                "month": "January",
+                "count": 2
+            }
+        ]
+    }
+}

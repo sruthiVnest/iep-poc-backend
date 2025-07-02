@@ -9,6 +9,7 @@ app.use(express.json()); // for parsing application/json
   const ncrdata = require('./assets/jsonData/ncrdata.json');
    const ispodata = require('./assets/jsonData/ispodata.json');
    const otrdr = require('./assets/jsonData/otrdrchart.json');
+   const chartdatancr = require('./assets/jsonData/chartdatancr.json');
 const fs = require('fs');
 // Mock endpoints
 app.get('/api/users', (req, res) => {
@@ -38,9 +39,24 @@ app.get('/api/getCurrentProjects',(req,res)=>{
 app.get('/api/getISPO',(req,res)=>{
   res.json(ispodata)
 })
-app.get('/api/getISPO',(req,res)=>{
-  res.json(ispodata)
-})
+app.post('/api/getNCRDataBymonth',(req,res)=>{
+
+  //filter ncrdata by month
+  const month = req.body.month; 
+  
+  const year = req.body.year;
+  fs.readFile('assets/jsonData/chartdatancr.json', 'utf8', function readFileCallback(err, data){
+    if (err){
+        console.log(err);
+    } else {
+    
+    let jsondata=JSON.parse(data); //get array length
+    let filteredData = jsondata.data.activities.filter(item => (item.MONTH === month && item.YEAR===year));  debugger;
+ 
+    res.json(filteredData); //send response
+
+}});
+});
 app.get('/api/getotrdr',(req,res)=>{
   res.json(otrdr)
 })
@@ -50,7 +66,7 @@ app.post('/api/saveFilter', (req, res) => {
     if (err){
         console.log(err);
     } else {
-      console.log(data)
+     
     let jsondata=JSON.parse(data); //get array length
     console.log(jsondata.data.length);
     let count = jsondata.data.length +1;
