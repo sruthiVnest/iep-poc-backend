@@ -10,6 +10,8 @@ app.use(express.json()); // for parsing application/json
    const ispodata = require('./assets/jsonData/ispodata.json');
    const otrdr = require('./assets/jsonData/otrdrchart.json');
    const chartdatancr = require('./assets/jsonData/chartdatancr.json');
+   const ecnchart = require('./assets/jsonData/ecnchart.json');
+   const ecnTabular = require('./assets/jsonData/ecntabular.json');
 const fs = require('fs');
 // Mock endpoints
 app.get('/api/users', (req, res) => {
@@ -60,6 +62,14 @@ app.post('/api/getNCRDataBymonth',(req,res)=>{
 app.get('/api/getotrdr',(req,res)=>{
   res.json(otrdr)
 })
+//ecn
+app.get('/api/getECNChart',(req,res)=>{
+  res.json(ecnchart)
+})
+app.get('/api/getECNData',(req,res)=>{
+  res.json(ecnTabular)
+})
+
 //add data to json file while clicking on save filter button
 app.post('/api/saveFilter', (req, res) => {
   fs.readFile('assets/jsonData/savedfilter.json', 'utf8', function readFileCallback(err, data){
