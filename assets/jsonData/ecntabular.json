@@ -1,13 +1,16 @@
  {"data": {
     "activities": [
       {
-        "row_number": "1",
+        
         "_id": 9476,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID161957",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "P&ID to be revised for both P80 and P82 to include the following changes:\\n\\nMech:\\n- Updated valves size on synthetic oil filter (as built)\\n- Updated some valves connection on starting system (as built)\\n- Updated position of some valves on FG system (as built)\\n- Added port for purge procedure on customer piping\\n- Added representation of PSV on purge valves (included in the same scope of supply)\\n- Improved mineral oil accumulator representation\\n- Added some missing MP on SG system > connection drawing already updated\\n- Added LO request on booster isolation valves\\n- Removed note for the heat tracing on SG skid in customer scope (provided directly by supplier)\\n\\nInstr/control:\\n- Updated I2 threshold for the rotor check logic on starting system\\n- Changed tag from XV to SDV for the FG external shutoff\\n- Added a note for the exhaust duct purge time\\n- Corrected the total number of VT on fan motor\\n- Added an interlock with ES on limit switch of outlet ventilation damper (customer request)\\n- Aligned signals tags to instrument tags for the gas detector\\n- Added on alarm on lube oil header PIT\\n- Corrected thresholds for GB bearings\\n\\nValid only for P80\\nWith reference to PR-011459, added the following valves/instruments on process side (customer scope, signals to BH UCP)\\n- XV1252021/022\\n- PDIT1252022/012\\n- TIT1252010/067\\n- PIT1252062/028\\n\\nValid only for P82\\nAdded XV1252021 on process side in customer scope (signals to BH UCP)\\nAdded PIT1252076 in customer scope with signals to BH UCP before PSV on SG skid for 306/C compressor",
         "MFG_REVIEW": "No",
+        
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "1604124,1604127",
         "PROBLEM_ITEMS": null,
@@ -47,18 +50,19 @@
         "AGING GROUP": ">40",
         "CYT": "297",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 10501,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID167746",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "ECR as built REB TEX 9000130",
         "MFG_REVIEW": "No",
+        
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "External",
         "COSTING_PROJECTS": "9000130,9000131",
         "PROBLEM_ITEMS": null,
@@ -98,18 +102,19 @@
         "AGING GROUP": ">40",
         "CYT": "0",
         "ECR OFFICE Name": null,
-        "COMMENT": "jufvghjkhvb",
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": "jufvghjkhvb"
       },
       {
-        "row_number": "1",
+        
         "_id": 12917,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID165177",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "Main features:\\n- as built points\\n- exhaust purge sif brought back in BH scope\\n- alignment of lube oil lables and levels indicated in instrument list",
         "MFG_REVIEW": "No",
+        
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "1703783",
         "PROBLEM_ITEMS": null,
@@ -149,18 +154,19 @@
         "AGING GROUP": ">40",
         "CYT": "28",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 14769,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID165550",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "Communication with DCS shall be Modbus RTU instead of Modbus TCP, as agreed during ITO to avoid firewall; BTB supplier already defined solution by changing a communication card, panels are shipped and card change with relevant hw/sw activities will be executed at site",
         "MFG_REVIEW": "No",
+        
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "1103908,1103910",
         "PROBLEM_ITEMS": null,
@@ -200,18 +206,19 @@
         "AGING GROUP": ">40",
         "CYT": "117",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 15036,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID165806",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "Changes (as built):\\n-Adding connection for gauge board drain (1/2\"\" NPT-F)\\n-Missing earthing bosses\\n-Sheet 5: Screw material for items I1 and I2 changed from CS to SS",
         "MFG_REVIEW": "No",
+        
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "1105395,1105462",
         "PROBLEM_ITEMS": null,
@@ -251,18 +258,18 @@
         "AGING GROUP": ">40",
         "CYT": "0",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 15625,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID169417",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "P&ID to be revised for both P80 and P82 to include the following changes:\\n\\n- Added table tags for F&G instrumentation for train B\\n- Corrected typical for chip detector in SLO system\\n- Added a DBB valve on common vent header for FG instruments to allow the purge procedure\\n- Added orifice before open drain on FF skid (as built)\\n- Corrected accumulator pre-charge value\\n- Updated mineral lube oil TCV set to 49 °C\\n- Corrected L threshold for PDIT-1254858 to 15 kPa\\n- Corrected CTRL set for Seal Gas PCV-1254809 to 30 kPa\\n- Updated thresholds for FIT on secondary injection and primary vent\\n- Updated size for instrument air supply to the thyristor panel (as built)\\n- Added 4 MP for drip rim on seal gas skid (as built)",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "1604140,1604134",
         "PROBLEM_ITEMS": null,
@@ -302,18 +309,18 @@
         "AGING GROUP": ">40",
         "CYT": "4",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 15732,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID166541",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "P&ID to be revised for both P80 and P82 to include the following changes:\\n\\n- Added table tags for F&G instrumentation for train B\\n- Corrected typical for chip detector in SLO system\\n- Added a DBB valve on common vent header for FG instruments to allow the purge procedure\\n- Added orifice before open drain on FF skid (as built)\\n- Corrected accumulator pre-charge value\\n- Updated mineral lube oil TCV set to 49 °C\\n- Updated thresholds for FIT on secondary injection\\n- Updated size for instrument air supply to the thyristor panel (as built)\\n- Added 4 MP for drip rim on seal gas skid (as built)",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "1604124,1604127",
         "PROBLEM_ITEMS": null,
@@ -353,18 +360,18 @@
         "AGING GROUP": ">40",
         "CYT": "6",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 16358,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID166436",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "As Built_GASKET NEED TO ADD",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "External",
         "COSTING_PROJECTS": "1703721",
         "PROBLEM_ITEMS": null,
@@ -404,18 +411,18 @@
         "AGING GROUP": ">40",
         "CYT": "31",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 16524,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID166614",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "1.LO return lines from the STG/gearbox and Generator has been modified in accordance with the comments received from the Mechanical DE\\n2.A vent valve has been added in the LO supply line as per the mechanical DE comments\\n3.Instrument air for the forced cooling of coupling guard has been removed as requested and agreed with the customer\\n4.H+Alarm condition has been added in the 2oo2 trip logic as requested by customer\\n5.Interlocks for the JO pump start/stop has been incorporated in the generator for the Low/low-Low conditions\\n6.HP control oil console cooler type has been changed to water cooler(plate type)as against shell and tube cooler agreed during the ITO stage.Accordingly the fan cooler interlocks has been removed.\\n7.Size of the thermowells(loosely supplied) in customer piping has been changed to 1\"\"SW\\n8.The interlock to trip the machine for the inlet pressure(Low/Low-Low)has been added as per customer request.\\n9.The position and the location of motorised drain valve(MOV-7480) in the HP superheating line has been modified to the drain header.\\n10.A new on-off valve(NV-7470) has been added in the bleeding line as a part of dedicated FMEA process for ensuring the safety of the machine\\n11.A manual check valve V7934 has been added in the drain line of HP superheating line from STG inorder to avoid the reverse flow.\\n12.Customer pipe size for the STG inlet (16\"\") and the extration line till the quick close check valve(14\"\") has been updated as a part of customer request.\\n13.Bypass assembly of the extraction line superheating valve TV-7408 has been removed as agreed with the customer\\n14.Expansion bottle in the condenser system has been removed owing to the space unavailablity\\n15.Solenoid valve and position transmitters has been updated forthe desuperheating valve assembly (PV-7439 and TV-7455)\\n16.Desuperheating assembly PID has been updated as per the asbuilt components(integral desuperheating system changed)",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "1908323",
         "PROBLEM_ITEMS": null,
@@ -455,18 +462,18 @@
         "AGING GROUP": ">40",
         "CYT": "39",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 16646,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID166676",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "5842170 TRG - SOS8930369 rev.1 as built unit D from Custumer adding new valves",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "5842170",
         "PROBLEM_ITEMS": null,
@@ -506,18 +513,18 @@
         "AGING GROUP": ">40",
         "CYT": "6",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 16647,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID166677",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "5842170 TRG - SOS8930369 rev.1 as built unit D from Custumer adding new valves",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "5842170",
         "PROBLEM_ITEMS": null,
@@ -557,18 +564,18 @@
         "AGING GROUP": ">40",
         "CYT": "28",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 18562,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID168206",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "As built implementation, plate removal.",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "External",
         "COSTING_PROJECTS": "0506159",
         "PROBLEM_ITEMS": null,
@@ -608,18 +615,18 @@
         "AGING GROUP": ">40",
         "CYT": "0",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 18857,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID168447",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "Updated piping as built",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "1003463",
         "PROBLEM_ITEMS": null,
@@ -659,18 +666,18 @@
         "AGING GROUP": ">40",
         "CYT": "3",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 19796,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID169314",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "Piping support book to be updates SW-9957033 & SW-420330208 as per ASBUILT comments",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "1103963,1103964",
         "PROBLEM_ITEMS": null,
@@ -710,18 +717,18 @@
         "AGING GROUP": ">40",
         "CYT": "0",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 21111,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID040957",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "As-built",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "1604326",
         "PROBLEM_ITEMS": null,
@@ -761,18 +768,18 @@
         "AGING GROUP": ">40",
         "CYT": "71",
         "ECR OFFICE Name": "UPG-PE",
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 21377,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID042778",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "As_built, SR No. 90231831, 90233441, 90229746, 90230584, 90223166, 90233787, 90229871",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "External",
         "COSTING_PROJECTS": "1900678",
         "PROBLEM_ITEMS": null,
@@ -812,18 +819,18 @@
         "AGING GROUP": ">40",
         "CYT": "66",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 21378,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID042777",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "As_built, SR No. 90236786, 90236554 \\n",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "External",
         "COSTING_PROJECTS": "1900678",
         "PROBLEM_ITEMS": null,
@@ -863,18 +870,18 @@
         "AGING GROUP": ">40",
         "CYT": "66",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 21380,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID042776",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "As_built, SR No. 90230766, 90123644",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "External",
         "COSTING_PROJECTS": "1900678",
         "PROBLEM_ITEMS": null,
@@ -914,18 +921,18 @@
         "AGING GROUP": ">40",
         "CYT": "66",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 21661,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID044076",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "as built",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "1102941",
         "PROBLEM_ITEMS": null,
@@ -965,18 +972,18 @@
         "AGING GROUP": ">40",
         "CYT": "19",
         "ECR OFFICE Name": "UPG-PE",
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 22005,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID044855",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "to as built",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "Internal",
         "COSTING_PROJECTS": "1609138",
         "PROBLEM_ITEMS": null,
@@ -1016,18 +1023,18 @@
         "AGING GROUP": ">40",
         "CYT": "49",
         "ECR OFFICE Name": "UPG-PE",
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 22628,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID045455",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "As_built, SR no: 90236858",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "External",
         "COSTING_PROJECTS": "1707072",
         "PROBLEM_ITEMS": null,
@@ -1067,18 +1074,18 @@
         "AGING GROUP": ">40",
         "CYT": "7",
         "ECR OFFICE Name": "UPG-PE",
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 22654,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID045460",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "As_built, SR No. 90211788 \\n",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "External",
         "COSTING_PROJECTS": "1609150",
         "PROBLEM_ITEMS": null,
@@ -1118,18 +1125,18 @@
         "AGING GROUP": ">40",
         "CYT": "7",
         "ECR OFFICE Name": "UPG-PE",
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 22672,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID045467",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "As_built, SR No. 90215996",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "External",
         "COSTING_PROJECTS": "1707072",
         "PROBLEM_ITEMS": null,
@@ -1169,18 +1176,18 @@
         "AGING GROUP": ">40",
         "CYT": "7",
         "ECR OFFICE Name": "UPG-PE",
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 22864,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID045611",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "As_built, SR No. 90239581",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "External",
         "COSTING_PROJECTS": "1707072",
         "PROBLEM_ITEMS": null,
@@ -1220,18 +1227,18 @@
         "AGING GROUP": ">40",
         "CYT": "6",
         "ECR OFFICE Name": null,
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       },
       {
-        "row_number": "1",
+        
         "_id": 23029,
         "as_built_category": "With As Built",
         "ECN_CODE": "RCID045813",
         "ECN_TYPE": "Item Revision Change Notice(RCID)",
         "ECN_DESC": "As_built, SR No. 90231818",
         "MFG_REVIEW": "No",
+        "PROMISE_DATE": null,
+        "ACKNOWLEDGE_DATE": null,
         "EXECUTION_TYPE": "External",
         "COSTING_PROJECTS": "1707072",
         "PROBLEM_ITEMS": null,
@@ -1271,9 +1278,7 @@
         "AGING GROUP": ">40",
         "CYT": "2",
         "ECR OFFICE Name": "UPG-PE",
-        "COMMENT": null,
-        "PROMISE_DATE": null,
-        "ACKNOWLEDGE_DATE": null
+        "COMMENT": null
       }
     ]
   }
