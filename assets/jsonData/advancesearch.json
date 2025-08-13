@@ -1,0 +1,10 @@
+{
+    "data":[
+       { "title":"Delivery Year","key":"selected_year","values":["2022", "2023", "2024", "2025","2000","2006","2010","1999"],"selected":""},
+       {"title": "Rac Years","key":"selected_rac","values":["2022", "2023", "2024", "2025"],"selected":""},
+       { "title":"Project Status","key":"selected_status","values":["Active", "Completed", "Pending"],"selected":""},
+       {"title": "Drivers","key":"selected_driver","values":["Driver A", "Driver B", "Driver C"],"selected":""},
+       { "title":"Connectors","key":"selected_connector","values":["Connector X", "Connector Y", "Connector Z"],"selected":""},
+        {"title":"Installation Countries","key":"installation_countries","values": ["USA", "Germany", "India", "UAE"],"selected":""}
+    ]
+}

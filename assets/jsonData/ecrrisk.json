@@ -1,0 +1,65 @@
+ {"data": {
+    "activities": [
+      {
+        
+        "_id": 9476,
+        "PROJECT_NO": "0315128",
+        "ECN_CODE": "ECR-0315128-0001",
+        "ECR_ID": "38321",
+        "ECN_CREATION_DATE": "2023-10-20T00:00:00.000Z",
+        "THRESHOLD_DATE": "2023-10-20T00:00:00.000Z",
+        "ECN_DESC": "P&ID to be revised for both P80 and P82 to include the following changes:\\n\\nMech:\\n- Updated valves size on synthetic oil filter (as built)\\n- Updated some valves connection on starting system (as built)\\n- Updated position of some valves on FG system (as built)\\n- Added port for purge procedure on customer piping\\n- Added representation of PSV on purge valves (included in the same scope of supply)\\n- Improved mineral oil accumulator representation\\n- Added some missing MP on SG system > connection drawing already updated\\n- Added LO request on booster isolation valves\\n- Removed note for the heat tracing on SG skid in customer scope (provided directly by supplier)\\n\\nInstr/control:\\n- Updated I2 threshold for the rotor check logic on starting system\\n- Changed tag from XV to SDV for the FG external shutoff\\n- Added a note for the exhaust duct purge time\\n- Corrected the total number of VT on fan motor\\n- Added an interlock with ES on limit switch of outlet ventilation damper (customer request)\\n- Aligned signals tags to instrument tags for the gas detector\\n- Added on alarm on lube oil header PIT\\n- Corrected thresholds for GB bearings\\n\\nValid only for P80\\nWith reference to PR-011459, added the following valves/instruments on process side (customer scope, signals to BH UCP)\\n- XV1252021/022\\n- PDIT1252022/012\\n- TIT1252010/067\\n- PIT1252062/028\\n\\nValid only for P82\\nAdded XV1252021 on process side in customer scope (signals to BH UCP)\\nAdded PIT1252076 in customer scope with signals to BH UCP before PSV on SG skid for 306/C compressor",
+        "AGING": "49.00",
+        "ALERT":"SOFT"
+        
+      },{
+        "_id": 9477,
+        "PROJECT_NO": "0315128",
+        "ECN_CODE": "ECR-0315128-0002",
+        "ECR_ID": "38322",
+        "ECN_CREATION_DATE": "2023-10-20T00:00:00.000Z",
+        "THRESHOLD_DATE": "2023-10-20T00:00:00.000Z",
+        "ECN_DESC": "P&ID to be revised for both P80 and P82 to include the following changes:\\n\\nMech:\\n- Updated valves size on synthetic oil filter (as built)\\n- Updated some valves connection on starting system (as built)\\n- Updated position of some valves on FG system (as built)\\n- Added port for purge procedure on customer piping\\n- Added representation of PSV on purge valves (included in the same scope of supply)\\n- Improved mineral oil accumulator representation\\n- Added some missing MP on SG system > connection drawing already updated\\n- Added LO request on booster isolation valves\\n- Removed note for the heat tracing on SG skid in customer scope (provided directly by supplier)\\n\\nInstr/control:\\n- Updated I2 threshold for the rotor check logic on starting system\\n- Changed tag from XV to SDV for the FG external shutoff\\n- Added a note for the exhaust duct purge time\\n- Corrected the total number of VT on fan motor\\n- Added an interlock with ES on limit switch of outlet ventilation damper (customer request)\\n- Aligned signals tags to instrument tags for the gas detector\\n- Added on alarm on lube oil header PIT\\n- Corrected thresholds for GB bearings\\n\\nValid only for P80\\nWith reference to PR-011459, added the following valves/instruments on process side (customer scope, signals to BH UCP)\\n- XV1252021/022\\n- PDIT1252022/012\\n- TIT1252010/067\\n- PIT1252062/028\\n\\nValid only for P82\\nAdded XV1252021 on process side in customer scope (signals to BH UCP)\\nAdded PIT1252076 in customer scope with signals to BH UCP before PSV on SG skid for 306/C compressor",
+        "AGING": "49.00",
+        "ALERT":"SOFT"
+      },
+      {
+        "_id": 9478,
+        "PROJECT_NO": "0315128",
+        "ECN_CODE": "ECR-0315128-0003",
+        "ECR_ID": "38323",
+        "ECN_CREATION_DATE": "2023-10-20T00:00:00.000Z",
+        "THRESHOLD_DATE": "2023-10-20T00:00:00.000Z",
+        "ECN_DESC": "P&ID to be revised for both P80 and P82 to include the following changes:\\n\\nMech:\\n- Updated valves size on synthetic oil filter (as built)\\n- Updated some valves connection on starting system (as built)\\n- Updated position of some valves on FG system (as built)\\n- Added port for purge procedure on customer piping\\n- Added representation of PSV on purge valves (included in the same scope of supply)\\n- Improved mineral oil accumulator representation\\n- Added some missing MP on SG system > connection drawing already updated\\n- Added LO request on booster isolation valves\\n- Removed note for the heat tracing on SG skid in customer scope (provided directly by supplier)\\n\\nInstr/control:\\n- Updated I2 threshold for the rotor check logic on starting system\\n- Changed tag from XV to SDV for the FG external shutoff\\n- Added a note for the exhaust duct purge time\\n- Corrected the total number of VT on fan motor\\n- Added an interlock with ES on limit switch of outlet ventilation damper (customer request)\\n- Aligned signals tags to instrument tags for the gas detector\\n- Added on alarm on lube oil header PIT\\n- Corrected thresholds for GB bearings\\n\\nValid only for P80\\nWith reference to PR-011459, added the following valves/instruments on process side (customer scope, signals to BH UCP)\\n- XV1252021/022\\n- PDIT1252022/012\\n- TIT1252010/067\\n- PIT1252062/028\\n\\nValid only for P82\\nAdded XV1252021 on process side in customer scope (signals to BH UCP)\\nAdded PIT1252076 in customer scope with signals to BH UCP before PSV on SG skid for 306/C compressor",
+        "AGING": "49.00",
+        "ALERT":"SOFT"
+      },
+      {
+        "_id": 9479,
+        "PROJECT_NO": "0315128",
+
+        "ECN_CODE": "ECR-0315128-0004",
+        "ECR_ID": "38324",
+
+        "ECN_CREATION_DATE": "2023-10-20T00:00:00.000Z",
+        "THRESHOLD_DATE": "2023-10-20T00:00:00.000Z",
+        "ECN_DESC": "P&ID to be revised for both P80 and P",
+        "AGING": "49.00",
+        "ALERT":"HARD"
+      },
+         {
+        "_id": 9480,
+        "PROJECT_NO": "0315129",
+
+        "ECN_CODE": "ECR-0315129-0001",
+        "ECR_ID": "38325",
+
+        "ECN_CREATION_DATE": "2023-11-20T00:00:00.000Z",
+        "THRESHOLD_DATE": "2023-10-20T00:00:00.000Z",
+        "ECN_DESC": "P&ID to be revised for both P80 and P",
+        "AGING": "49.00",
+        "ALERT":"HARD"
+      }
+      ]
+      }
+    }

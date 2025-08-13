@@ -9,9 +9,11 @@ app.use(express.json()); // for parsing application/json
   const ncrdata = require('./assets/jsonData/ncrdata.json');
    const ispodata = require('./assets/jsonData/ispodata.json');
    const otrdr = require('./assets/jsonData/otrdrchart.json');
-   const chartdatancr = require('./assets/jsonData/chartdatancr.json');
+   const advancesearch = require('./assets/jsonData/advancesearch.json');
    const ecnchart = require('./assets/jsonData/ecnchart.json');
    const ecnTabular = require('./assets/jsonData/ecntabular.json');
+   const ofcdata=require('./assets/jsonData/officeData.json');
+   const ecrriskdata=require('./assets/jsonData/ecrrisk.json');
 const fs = require('fs');
 // Mock endpoints
 app.get('/api/users', (req, res) => {
@@ -37,6 +39,9 @@ const userId = req.params.id;
 //mock data for node tree
 app.get('/api/getCurrentProjects',(req,res)=>{
   res.json(data)
+})
+app.get('/api/officeData',(req,res)=>{
+  res.json(ofcdata)
 })
 app.get('/api/getISPO',(req,res)=>{
   res.json(ispodata)
@@ -69,6 +74,12 @@ app.get('/api/getECNChart',(req,res)=>{
 app.get('/api/getECNData',(req,res)=>{
   res.json(ecnTabular)
 })
+app.get('/api/getECRRiskData',(req,res)=>{
+  res.json(ecrriskdata)
+})
+app.get('/api/advancesearch',(req,res)=>{
+  res.json(advancesearch)
+})
 
 //add data to json file while clicking on save filter button
 app.post('/api/saveFilter', (req, res) => {
@@ -78,14 +89,13 @@ app.post('/api/saveFilter', (req, res) => {
     } else {
      
     let jsondata=JSON.parse(data); //get array length
-    console.log(jsondata.data.length);
-    let count = jsondata.data.length +1;
+    
+    let name=req.body.name;
     let obj={}; 
-    let filter="Filter "+count; //create filter name
-    obj[filter]=req.body //add some data
+    debugger;
+    let filter=''+name; //create filter name
+    obj[filter]=req.body.option; //add some data
     jsondata.data.push(obj); //push it to data array
-    console.log(jsondata);
-   // json = JSON.stringify(jsondata); //convert it back to json
     fs.writeFile('assets/jsonData/savedfilter.json', JSON.stringify(jsondata), (err) => {
     if (err) {  console.error(err);  return; };
    

@@ -1,0 +1,77 @@
+{"activeOffice":[
+  {
+    "officeId": "o1",
+    "officeName": "CREE",
+    
+    "isFavourite": "False",
+    "suboffice": [
+      {
+        "subofficeId": "so1",
+        "subofficeName": "CCRQS",
+        "officeNumber": ["CCRQS-1001", "CCRQS-1002"]
+      },
+      {
+        "subofficeId": "so2",
+        "subofficeName": "CCDISE",
+        "officeNumber": ["CCDISE-1003"]
+      }
+    ]
+  },
+  {
+    "officeId": "o2",
+    "officeName": "CIS-ENG",
+    
+    "isFavourite": "False",
+    "suboffice": [
+      {
+        "subofficeId": "so21",
+        "subofficeName": "CISENG-1",
+        "officeNumber": ["CIS-1001", "CIS-1002"]
+      },
+      {
+        "subofficeId": "so22",
+        "subofficeName": "CISENG-2",
+        "officeNumber": ["CIS-1003"]
+      }
+    ]
+  },
+  {
+    "officeId": "o3",
+    "officeName": "EICE",
+    
+    "isFavourite": "True",
+    "suboffice": [
+      {
+        "subofficeId": "so31",
+        "subofficeName": "EICE-1",
+        "officeNumber": ["EICE-1001", "EICE-1002"]
+      },
+      {
+        "subofficeId": "so32",
+        "subofficeName": "EICE-2",
+        "officeNumber": ["EICE-1003"]
+      }
+    ]
+  }
+],
+"closedOffice":[
+  {
+    "officeId": "o4",
+    "officeName": "CREE-OLD",
+    
+    "isFavourite": "False",
+    "suboffice": [
+      {
+        "subofficeId": "so41",
+        "subofficeName": "CCRQS-OLD",
+        "officeNumber": ["CCRQS-2001", "CCRQS-2002"]
+      },
+      {
+        "subofficeId": "so42",
+        "subofficeName": "CCDISE-OLD",
+        "officeNumber": ["CCDISE-2003"]
+      }
+    ]
+  }
+]
+}
