@@ -6,7 +6,7 @@ app.use(cors());//for fixing CORS error
 app.use(express.json()); // for parsing application/json
  //get data from json file
  const data = require('./assets/jsonData/projecttreedata.json');
-  const ncrdata = require('./assets/jsonData/ncrdata.json');
+   const ncrdata = require('./assets/jsonData/ncrdata.json');
    const ispodata = require('./assets/jsonData/ispodata.json');
    const otrdr = require('./assets/jsonData/otrdrchart.json');
    const advancesearch = require('./assets/jsonData/advancesearch.json');
@@ -14,6 +14,8 @@ app.use(express.json()); // for parsing application/json
    const ecnTabular = require('./assets/jsonData/ecntabular.json');
    const ofcdata=require('./assets/jsonData/officeData.json');
    const ecrriskdata=require('./assets/jsonData/ecrrisk.json');
+   const ecrData=require('./assets/jsonData/ecrdata.json');
+   const ecndovsbuy=require('./assets/jsonData/ecndovsbuy.json');
 const fs = require('fs');
 // Mock endpoints
 app.get('/api/users', (req, res) => {
@@ -74,6 +76,9 @@ app.get('/api/getECNChart',(req,res)=>{
 app.get('/api/getECNData',(req,res)=>{
   res.json(ecnTabular)
 })
+app.get('/api/getECRData',(req,res)=>{
+  res.json(ecrData)
+})
 app.get('/api/getECRRiskData',(req,res)=>{
   res.json(ecrriskdata)
 })
@@ -117,6 +122,9 @@ fs.readFile('assets/jsonData/savedfilter.json', 'utf8', (err, data) => {
 });
 
 
+})
+app.get('/api/getECNdovsbuy',(req,res)=>{
+  res.json(ecndovsbuy)
 })
 // Start server
 app.listen(port, () => {

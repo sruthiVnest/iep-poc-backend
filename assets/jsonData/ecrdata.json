@@ -1,0 +1,100 @@
+{"ecrchart":{
+    "status": "ok",
+    "errorCode": 0,
+    "message": "Success",
+    "data": {
+        "activities": [
+            {
+                "yearMonth": "2022-10",
+                "sourceOfChange": "CHANGE DRIVEN BY MANUFACTURING",
+                "Count": "1"
+            },
+                {
+                "yearMonth": "2022-11",
+                "sourceOfChange": "CHANGE DRIVEN BY MANUFACTURING",
+                "Count": "1"
+            },
+                {
+                "yearMonth": "2025-10",
+                "sourceOfChange": "CHANGE DRIVEN BY MANUFACTURING",
+                "Count": "4"
+            },
+            {
+                "yearMonth": "2025-04",
+                "sourceOfChange": "CHANGE DRIVEN BY MANUFACTURING",
+                "Count": "4"
+            }
+        ]
+    },
+    "statistics": {
+        "sendTime": 1755514098282,
+        "receiveTime": 1755514260961,
+        "finishTime": 1755514261016,
+        "responseTime": "55 ms",
+        "cycleTime": "162734 ms",
+        "ingressTime": "162679 ms"
+    }
+},
+"ecrtable":{
+    "status": "ok",
+    "errorCode": 0,
+    "message": "Success",
+    "data": {
+        "activities": [
+            {
+                "_id": 32567,
+                "ECR_CODE": "ECR-486124",
+                "ECR_TYPE": "Requisition Change Request",
+                "SOURCE OF CHANGE": "CHANGE DRIVEN BY MANUFACTURING",
+                "REASON_DESC": "MFG IMPROVEMENTS/COST OUT (NO NCR)",
+                "SSO ID": "105028173",
+                "ECR_CREATION_DATE": "2022-10-20",
+                "CHANGE TYPE": "CIS/CIS+FFF&P",
+                "ENG IMPACTED LIST": null,
+                "COSTING_PROJECTS": "1608566",
+                "MATERIAL_CATEGORY": "F2F",
+                "CHANGE_CATEGORY": "ADD COMPONENT",
+                "CHANGE_ON_RECEIVED_ITEMS": null,
+                "IMPACT_VERIFICATION": "Yes",
+                "CHANGE DESCRIPTION": "Per i jobs 1608665-66:\\r\\n\\r\\nSotto M24511787 aggiungere in prima posizione M24511788 x1 \\r\\n(vedi 1658535-36)",
+                "IMPACTED ITEM": "M24511787_1608665/000",
+                "IMPACTED ITEM DESCRIPTION": "TRANSICTION DUCT MACHINING",
+                "APPROVER": "105711368",
+                "APPROVER_DECISION": "Approved",
+                "APPROVER DESC DATE": "2022-10-20",
+                "CLOSURE": "Closed",
+                "DISPOSITION": "Approved",
+                "MATURITY": "Complete",
+                "AS BUILT FROM SITE": "NO",
+                "REFERENCE ECR": null,
+                "INTERNAL REFERENT": null,
+                "ORGANIZATION NAME": "IET-GTE-ENG-Packages & Systems PACK-CFG",
+                "MANAGER NAME": "Lotti, Cristiano",
+                "MAIN_FUNCTION": "ENG",
+                "FUNCTION": null,
+                "PL": "GTE-ENG",
+                "SUB_PL": "PSE",
+                "DIVISION": "PACK-CFG",
+                "EXCLUDED": "N",
+                "EXCLUDED FOR GRAPH": "N",
+                "DEFECTIVE CHANGE": "Yes",
+                "AGING": "923.00",
+                "ECR CREATION YEAR": 2022,
+                "ECR CREATION MONTH": 10,
+                "FW": null,
+                "COMMENT": null,
+                "PROMISE_DATE": null,
+                "ACKNOWLEDGE_DATE": null
+            }
+        ]
+    },
+    "statistics": {
+        "sendTime": 1755514302658,
+        "receiveTime": 1755514328191,
+        "finishTime": 1755514328238,
+        "responseTime": "47 ms",
+        "cycleTime": "25580 ms",
+        "ingressTime": "25533 ms"
+    }
+}
+}
